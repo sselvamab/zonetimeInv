@@ -1,0 +1,24 @@
+{
+  "generationParameters": {
+    "generationDate": "Sat Sep 06 2025 07:20:34 GMT+0000 (Coordinated Universal Time)",
+    "generatorPlatform": "SAP Business Application Studio",
+    "serviceType": "SAP System (ABAP On-Premise)",
+    "metadataFilename": "",
+    "serviceUrl": "http://ds4-poc.sap.onecdg.corp:44300/sap/opu/odata/sap/API_SUPPLIERINVOICE_PROCESS_SRV",
+    "appName": "zsupplierinv1",
+    "appTitle": "Supplier Invoice Upload",
+    "appDescription": "Supplier Invoice Upload",
+    "appNamespace": "com.abeam",
+    "ui5Theme": "sap_horizon",
+    "ui5Version": "1.120.31",
+    "enableCodeAssist": false,
+    "enableEslint": false,
+    "enableTypeScript": false,
+    "showMockDataInfo": true,
+    "generatorVersion": "1.18.6",
+    "template": "Basic V2",
+    "generatorName": "SAP Fiori Application Generator",
+    "entityRelatedConfig": [],
+    "launchText": "To launch the generated application, run the following from the generated application root folder:\n\n```\n    npm start\n```"
+  }
+}

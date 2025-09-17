@@ -1,0 +1,18 @@
+
+<c:FragmentDefinition xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:u="sap.ui.unified"
+    xmlns:c="sap.ui.core"
+    xmlns:up="sap.m.upload">
+    <Dialog id="UploadSheetDialog" title="{i18n>UploadSheet}" busyIndicatorDelay="0">
+        <u:FileUploader id="fileUploader" class="sapUiMediumMargin" tooltip="{18n>UploadSheetTooltip}" fileType="xlsx"
+			placeholder="{i18n>UploadSheetPlaceholder}" typeMissmatch="onUploadSheeetTypeMismatch"
+            change="onUploadSheetChange" sameFilenameAllowed="true" width="70%"/>
+        <beginButton>
+            <Button text="{i18n>upload}" press="onConfirmUploadSheet" type="Emphasized"/>
+        </beginButton>
+        <endButton>
+            <Button text="{i18n>cancel}" press="onCancelUploadSheet" type="Reject"/>
+        </endButton>
+    </Dialog>
+</c:FragmentDefinition>
